@@ -1,0 +1,218 @@
+:root {
+    /* Fonts */
+    --main-font-family: 'Roboto', sans-serif;
+
+    /* Colors */
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --main-light-color: #fff;
+    --current-color: #2196F3;
+    --background-hero-section-color: #2F303A;
+    --background-our-team-section-color: #F5F4FA;
+}
+
+body {
+    font-family: var(--main-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+
+    color: var(--main-color);
+
+    letter-spacing: 0.03em;
+}
+
+
+
+
+
+/* Common Styles */
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+.button {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    color: inherit;
+}
+.list {
+    list-style: none;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.current {
+color: var(--current-color);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+
+
+
+
+/* header */
+.header {
+    background-color: var(--main-light-color);
+}
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-list {
+}
+.nav-list-item {
+}
+.nav-link {
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.link-address {
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    font-style: normal;
+}
+
+
+
+
+
+/* Hero Section  */
+.hero-section {
+    background-color: var(--background-hero-section-color);
+}
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+}
+.button-hero {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-light-color);
+    background-color: var(--current-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
+
+
+
+
+/* Second Section */
+.benefits-title {
+    font-weight: 700;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+.description-benefits {
+    line-height: 1.71;
+    color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+/* Section "Наша команда" */
+.name-person {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--main-color);
+}
+.person-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--secondary-color);
+}
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: var(--background-hero-section-color);
+}
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--main-light-color);
+}
+.link-contacts {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--main-light-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+/* Page Portfolio */
+.button-filtr {
+    background-color: var(--background-our-team-section-color);
+    border-radius: 4px;
+
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--main-color);
+}
+.projects-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+.projects-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-color);
+}
