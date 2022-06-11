@@ -15,7 +15,6 @@ body {
     font-family: var(--main-font-family);
     font-size: 14px;
     font-weight: 500;
-    font-style: normal;
 
     color: var(--main-color);
 
@@ -53,7 +52,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.current {
+.span {
 color: var(--current-color);
 }
 .visually-hidden {
@@ -68,10 +67,9 @@ color: var(--current-color);
     clip-path: inset(50%);
     margin: -1px;
 }
-
-
-
-
+.nav-link.current {
+    color: var(--current-color);
+}
 
 
 /* header */
@@ -83,6 +81,9 @@ color: var(--current-color);
     font-size: 26px;
     line-height: 1.19;
     font-family: 'Raleway', sans-serif;
+
+    text-decoration: none;
+    color: inherit;
 }
 .nav-list {
 }
@@ -139,8 +140,9 @@ color: var(--current-color);
 
 /* Second Section */
 .benefits-title {
+    font-size: 14px;
     font-weight: 700;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
@@ -183,6 +185,8 @@ color: var(--current-color);
     font-size: 26px;
     line-height: 1.2;
     color: var(--main-light-color);
+
+    text-decoration: none;
 }
 .link-contacts {
     font-weight: 400;
@@ -191,10 +195,6 @@ color: var(--current-color);
     text-decoration: none;
     font-style: normal;
 }
-.link-contacts:hover {
-    color: var(--current-color);
-}
-
 
 
 
@@ -208,9 +208,12 @@ color: var(--current-color);
     background-color: var(--background-our-team-section-color);
     border-radius: 4px;
 
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     color: var(--main-color);
+
+    letter-spacing: 0.03em;
 }
 .button-filtr:hover {
     color: var(--main-light-color);
