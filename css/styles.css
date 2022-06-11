@@ -31,6 +31,12 @@ body {
     text-decoration: none;
     color: inherit;
 }
+.link:hover {
+    color: var(--current-color);
+}
+.link:focus {
+    color: var(--current-color);
+}
 .button {
     border: none;
     font-family: inherit;
@@ -185,6 +191,9 @@ color: var(--current-color);
     text-decoration: none;
     font-style: normal;
 }
+.link-contacts:hover {
+    color: var(--current-color);
+}
 
 
 
@@ -202,6 +211,14 @@ color: var(--current-color);
     font-size: 16px;
     line-height: 1.62;
     color: var(--main-color);
+}
+.button-filtr:hover {
+    color: var(--main-light-color);
+    background-color: var(--current-color);
+}
+.button-filtr:focus {
+    color: var(--main-light-color);
+    background-color: var(--current-color);
 }
 .projects-name {
     font-weight: 700;
