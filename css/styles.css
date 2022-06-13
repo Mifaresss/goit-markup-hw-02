@@ -142,6 +142,10 @@ margin-right: auto;
 .hero-section {
     background-color: var(--background-hero-section-color);
     padding-bottom: 200px;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:space-around; 
+    align-items:center;
 }
 .title {
     font-weight: 900;
