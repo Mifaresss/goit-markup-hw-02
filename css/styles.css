@@ -76,8 +76,6 @@ width: 1170px;
 
 margin-left: auto;
 margin-right: auto;
-
-outline: 1px solid green;
 }
 
 
@@ -109,9 +107,13 @@ outline: 1px solid green;
     color: inherit;
 }
 .nav-list {
+    list-style: none;
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
+    text-align:center;
+    margin-left: 93px;
+    padding-left: 0px;
 }
 .nav-list-item + .nav-list-item {
     margin-left: 50px;
@@ -119,6 +121,11 @@ outline: 1px solid green;
 .nav-link {
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.list-contacts {
+    list-style: none;
+    display: flex;
+    gap: 50px;
 }
 .link-address {
     line-height: 1.14;
@@ -134,6 +141,7 @@ outline: 1px solid green;
 /* Hero Section  */
 .hero-section {
     background-color: var(--background-hero-section-color);
+    padding-bottom: 200px;
 }
 .title {
     font-weight: 900;
@@ -143,6 +151,9 @@ outline: 1px solid green;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-light-color);
+    padding-top: 200px;
+    width: 696px;
+    margin: 0 auto;
 }
 .button-hero {
     border: none;
@@ -158,6 +169,13 @@ outline: 1px solid green;
     background-color: var(--current-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
+
+    margin-top: 30px;
+    margin-left: 700px;
+    margin-right: 700px;
+    width: 200px;
+    height: 50px;
+    padding: 0;
 }
 
 
@@ -165,7 +183,19 @@ outline: 1px solid green;
 
 
 
-/* Second Section */
+/* Benefits Section */
+.benefits-section {
+    margin-top: 94px;
+}
+.list-benefits {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    gap: 30px;
+}
+.list-benefits > li {
+    width: 270px;
+}
 .benefits-title {
     font-size: 14px;
     font-weight: 700;
@@ -184,8 +214,43 @@ outline: 1px solid green;
 
 
 
+/* Example Section */
+.example-section {
+    margin-top: 94px;
+}
+.list-foto {
+    margin-top: 50px;
+    margin-bottom: 94px;
+    padding: 0;
+    gap: 30px;
+}
+
+
+
+
+
 
 /* Section "Наша команда" */
+.section-our-team {
+    background-color: var(--background-our-team-section-color);
+    margin-top: 0;
+}
+.title-our-team {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+.list-our-team {
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+.list-item-our-team {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    background-color: var(--main-light-color);
+}
 .name-person {
     font-size: 16px;
     line-height: 1.18;
@@ -205,6 +270,8 @@ outline: 1px solid green;
 /* footer */
 .footer {
     background-color: var(--background-hero-section-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logo-footer {
     font-family: 'Raleway', sans-serif;
@@ -214,6 +281,16 @@ outline: 1px solid green;
     color: var(--main-light-color);
 
     text-decoration: none;
+
+    padding-left: 215px;
+}
+.list-address {
+    list-style: none;
+    padding-left: 215px;
+    margin-top: 20px;
+}
+.list-item-address + .list-item-address {
+    margin-top: 9px;
 }
 .link-contacts {
     font-weight: 400;
