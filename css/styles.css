@@ -72,7 +72,7 @@ color: var(--current-color);
     color: var(--current-color);
 }
 .container {
-width: 1170px;
+width: 1200px;
 
 margin-left: auto;
 margin-right: auto;
@@ -82,11 +82,11 @@ margin-right: auto;
 /* header */
 .header {
     background-color: var(--main-light-color);
-    display: flex;
+    /* display: flex; */
     text-align: center;
 
     padding-top: 25px;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
 }
 .header > .container {
     display: flex;
@@ -312,6 +312,23 @@ margin-right: auto;
 
 
 /* Page Portfolio */
+/* Header */
+.header:after {
+    content: "";
+    border: 1px solid #ECECEC;
+    display: block;
+    height: 0px;
+    margin-top: 25px;
+}
+
+
+
+
+
+/* Main Section */
+.main {
+    margin-top: 94px;
+}
 .button-filtr {
     background-color: var(--background-our-team-section-color);
     border-radius: 4px;
@@ -322,6 +339,7 @@ margin-right: auto;
     color: var(--main-color);
 
     letter-spacing: 0.03em;
+    padding: 6px 22px;
 }
 .button-filtr:hover {
     color: var(--main-light-color);
@@ -343,4 +361,19 @@ margin-right: auto;
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-color);
+}
+.list-buttons-filtr {
+    gap: 8px;
+    justify-content: center;
+}
+.list-portfolio {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.list-portfolio-item {
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.description-portfolio-item {
+    padding: 20px 24px;
 }
