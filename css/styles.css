@@ -45,6 +45,7 @@ body {
 .list {
     list-style: none;
     display: flex;
+    padding: 0;
 }
 .section-title {
     font-weight: 700;
@@ -73,7 +74,8 @@ color: var(--current-color);
 }
 .container {
 width: 1200px;
-
+padding-left: 15px;
+padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -140,7 +142,7 @@ margin-right: auto;
 
 /* Hero Section  */
 .hero-section {
-    background-color: var(--background-hero-section-color);
+    background-image: url(../images/background-hero-section.png);
     padding-bottom: 200px;
     display:flex; 
     flex-direction:column; 
@@ -328,6 +330,7 @@ margin-right: auto;
 /* Main Section */
 .main {
     margin-top: 94px;
+    margin-bottom: 94px;
 }
 .button-filtr {
     background-color: var(--background-our-team-section-color);
@@ -349,26 +352,37 @@ margin-right: auto;
     color: var(--main-light-color);
     background-color: var(--current-color);
 }
+.item-portfolio-section {
+    margin-top: 34px;
+}
 .projects-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 4px;
 }
 .projects-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .list-buttons-filtr {
     gap: 8px;
     justify-content: center;
+    margin: 0;
 }
 .list-portfolio {
     flex-wrap: wrap;
     gap: 30px;
+    margin: 0;
 }
 .list-portfolio-item {
     background-color: #FFFFFF;
