@@ -233,10 +233,10 @@ margin-right: auto;
     gap: 30px;
 }
 .list-foto-item {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .list-foto-item:hover {
-    transform: scale(1.1,1.1);
+    transform: rotate(360deg);
 }
 
 
@@ -269,7 +269,7 @@ margin-right: auto;
     box-shadow: 0px 5px 5px var(--secondary-color);
 }
 .list-item-our-team:hover {
-    transform: scale(1.1,1.1);
+    transform: scale3D(1.1,1.1,1.1);
 }
 .name-person {
     font-size: 16px;
@@ -316,7 +316,7 @@ margin-right: auto;
 .list-clients-item:hover {
     border: 1px solid var(--current-color);
     box-shadow: 0 6px 6px #AFB1B8;
-    transform: scale(1.1,1.1);
+    transform: scale3D(1.1,1.1,1.1);
 }
 .list-clients-item:hover .list-clients-item-svg path {
     fill: var(--current-color);
@@ -400,7 +400,7 @@ margin-right: auto;
 }
 .list-social-item:hover {
     background-color: var(--current-color);
-    transform: scale(1.1,1.1);
+    transform: scale3D(1.1,1.1,1.1);
 }
 .img-social {
     padding: 12px;
