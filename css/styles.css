@@ -308,7 +308,7 @@ margin-right: auto;
 }
 .list-clients-item:hover {
     border: 1px solid var(--current-color);
-    box-shadow: 0 9px 9px var(--current-color);
+    box-shadow: 0 6px 6px var(--current-color);
     transform: scale(1.1,1.1);
 }
 .list-clients-item:hover .list-clients-item-svg path {
