@@ -199,8 +199,10 @@ margin-right: auto;
     width: auto;
     gap: 30px;
 }
-.list-benefits > li {
-    width: 270px;
+.list-benefits-item img {
+    background-color: var(--background-our-team-section-color);
+    border-radius: 4px;
+    padding: 25px 100px;
 }
 .benefits-title {
     font-size: 14px;
@@ -240,9 +242,10 @@ margin-right: auto;
 .section-our-team {
     background-color: var(--background-our-team-section-color);
     margin-top: 0;
+    padding-top: 94px;
 }
 .title-our-team {
-    padding-top: 94px;
+    margin-top: 0;
     margin-bottom: 50px;
 }
 .list-our-team {
@@ -256,6 +259,10 @@ margin-right: auto;
     border-radius: 0px 0px 4px 4px;
     text-align: center;
     background-color: var(--main-light-color);
+    transition: all 0.3s ease-in-out;
+}
+.list-item-our-team:hover {
+    transform: scale(1.1,1.1);
 }
 .name-person {
     font-size: 16px;
@@ -273,11 +280,63 @@ margin-right: auto;
 
 
 
+
+
+/* Clients Section */
+.clients-section {
+    padding-top: 94px;
+}
+.clients-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.list-clients {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 94px;
+    padding: 0;
+    margin-top: 0;
+}
+.list-clients-item {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #AFB1B8;
+    transition: all 0.3s;
+}
+.list-clients-item:hover {
+    border: 1px solid var(--current-color);
+    box-shadow: 0 9px 9px var(--current-color);
+    transform: scale(1.1,1.1);
+}
+.list-clients-item:hover .list-clients-item-svg path {
+    fill: var(--current-color);
+}
+.list-clients-item-svg {
+    padding: 16px 32px;
+}
+.list-clients-item-svg path {
+    fill: #AFB1B8;
+}
+
+
+
+
+
+
+
 /* footer */
 .footer {
     background-color: var(--background-hero-section-color);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.dates-footer {
+    width: 1200px;
+    display: flex;
+    align-items: flex-start;
 }
 .logo-footer {
     font-family: 'Raleway', sans-serif;
@@ -294,6 +353,7 @@ margin-right: auto;
     list-style: none;
     padding-left: 215px;
     margin-top: 20px;
+    margin-bottom: 0;
 }
 .list-item-address + .list-item-address {
     margin-top: 9px;
@@ -305,7 +365,39 @@ margin-right: auto;
     text-decoration: none;
     font-style: normal;
 }
-
+.social-net {
+    margin-left: 70px;
+}
+.text-footer {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.list-social {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.list-social-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    transition: all 0.3s ease-in-out;
+}
+.list-social-item:hover {
+    background-color: var(--current-color);
+    transform: scale(1.1,1.1);
+}
+.img-social {
+    padding: 12px;
+}
 
 
 
