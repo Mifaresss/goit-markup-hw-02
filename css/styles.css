@@ -232,6 +232,12 @@ margin-right: auto;
     padding: 0;
     gap: 30px;
 }
+.list-foto-item {
+    transition: all 0.3s ease-in-out;
+}
+.list-foto-item:hover {
+    transform: scale(1.1,1.1);
+}
 
 
 
@@ -260,6 +266,7 @@ margin-right: auto;
     text-align: center;
     background-color: var(--main-light-color);
     transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 5px var(--secondary-color);
 }
 .list-item-our-team:hover {
     transform: scale(1.1,1.1);
@@ -304,11 +311,11 @@ margin-right: auto;
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0 5px 5px #AFB1B8;
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
 }
 .list-clients-item:hover {
     border: 1px solid var(--current-color);
-    box-shadow: 0 6px 6px var(--current-color);
+    box-shadow: 0 6px 6px #AFB1B8;
     transform: scale(1.1,1.1);
 }
 .list-clients-item:hover .list-clients-item-svg path {
